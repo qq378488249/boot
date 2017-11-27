@@ -1,0 +1,8 @@
+server:
+  port: 8080
+girl:
+  age: 11
+  name: blue
+age: 11
+name: blue
+context: "年龄:${age},姓名${name}"

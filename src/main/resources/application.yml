@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.95.8.210:3306/user
+    username: hcl
+    password: 111111
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+girl:
+  age: 11
+  name: blue
