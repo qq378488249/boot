@@ -18,8 +18,10 @@ spring:
        host: smtp.qq.com
 #qq企业邮箱
 #       host: smtp.exmail.qq.com
-       username: 378488249@qq.com
+       username: chenglong.he@foxmail.com
        password: txbcyukymegpcajf
+
+#       recipients: 378488249@qq.com,648568780@qq.com,chenglong.he@foxmail.com
        properties:
          mail:
            smtp:
@@ -33,3 +35,12 @@ girl:
   name: blue
 age: 11
 name: blue
+
+#邮件接收人者，多个用英文逗号隔开
+mailRecipients: 378488249@qq.com,648568780@qq.com,chenglong.he@foxmail.com
+
+server:
+#端口号
+#  port: 8082
+#  命名空间
+#  context-path: /boot
