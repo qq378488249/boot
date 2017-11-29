@@ -1,15 +1,35 @@
 spring:
-  profiles:
-    active: dev
+#  profiles:
+#    active: dev
+
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://47.95.8.210:3306/user
     username: hcl
     password: 111111
+
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+  mail:
+#qq个人邮箱
+       host: smtp.qq.com
+#qq企业邮箱
+#       host: smtp.exmail.qq.com
+       username: 378488249@qq.com
+       password: txbcyukymegpcajf
+       properties:
+         mail:
+           smtp:
+             auth: true
+             starttls:
+               enable: true
+               required: true
+
 girl:
   age: 11
   name: blue
+age: 11
+name: blue
